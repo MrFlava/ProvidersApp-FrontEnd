@@ -7,7 +7,7 @@
     "dev": "webpack --watch --mode development ./src/index.js --output-path ./public",
     "build": "webpack --mode production ./src/index.js --output-path ./public",
     "serve": "webpack serve",
-    "start": "npm run build && node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
