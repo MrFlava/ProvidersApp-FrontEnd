@@ -1,0 +1,7 @@
+version: "3"
+services:
+  client:
+    build: .
+    ports:
+      - "9000:9000"
+    container_name: epam-frontend
