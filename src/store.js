@@ -9,7 +9,7 @@ import axios from 'axios';
 
 const initialState = {};
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000/';
+axios.defaults.baseURL = 'https://desolate-basin-92919.herokuapp.com/';
 
 const middleware = [thunk];
 
